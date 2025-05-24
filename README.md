@@ -24,7 +24,7 @@ This project implements a License Plate Recognition system using Python. It leve
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/license-plate-recognition.git
+   git clone https://github.com/vanTanIsReal/vietnam_license_plate_recognition.git
    cd license-plate-recognition
    ```
 
@@ -41,7 +41,7 @@ This project implements a License Plate Recognition system using Python. It leve
    pip install -r requirements.txt
    ```
 
-4. **Download the pre-trained model** (if not already included): Ensure the `best.pt` file is in the project root directory. If it's missing, you may need to download it from the model provider or train your own.
+4. **Download the pre-trained model** : Ensure the `best.pt` file is in the project root directory. If it's missing, you may need to download it from the model provider or train your own.
 
 ## Usage
 
@@ -65,8 +65,8 @@ This project implements a License Plate Recognition system using Python. It leve
 
 ## Model Details
 
-- The `best.pt` model is likely a YOLO-based model fine-tuned for license plate detection.
-- It detects the license plate region in an image, and OCR techniques (e.g., using Tesseract) may be applied to extract the text.
+- The `best.pt` model is a YOLO-based model fine-tuned for license plate detection.
+- It detects the license plate region in an image, and OCR techniques (e.g., using TrOCR) may be applied to extract the text.
 
 ## Dependencies
 
@@ -81,11 +81,6 @@ See `requirements.txt` for the full list. Key dependencies include:
 
 Feel free to submit issues or pull requests on GitHub. For major changes, please open an issue first to discuss your ideas.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details (if applicable).
-
 ## Acknowledgments
 
 - Thanks to the open-source community for providing tools like YOLO, Flask, and TrOCR.
-- Inspired by various license plate recognition projects online.
